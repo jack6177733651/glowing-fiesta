@@ -13,7 +13,7 @@ public class UserController {
 
     @GetMapping("/foo")
     public String foo() {
-        System.out.println("change from remote");
+        System.out.println("change from remote, modified");
         return "foo";
     }
 }

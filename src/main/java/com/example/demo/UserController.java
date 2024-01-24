@@ -15,6 +15,7 @@ public class UserController {
     public String foo() {
         System.out.println("change from remote, modified 2");
         System.out.println("another change");
+        System.out.println("new change");
         return "foo";
     }
 }

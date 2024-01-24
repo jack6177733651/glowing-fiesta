@@ -8,6 +8,6 @@ public class QuestionController {
 
     @GetMapping
     public String getQuestion() {
-        return "question";
+        return "question from tom";
     }
 }

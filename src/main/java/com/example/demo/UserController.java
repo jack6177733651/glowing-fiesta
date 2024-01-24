@@ -14,6 +14,7 @@ public class UserController {
     @GetMapping("/foo")
     public String foo() {
         System.out.println("change from remote, modified");
+        System.out.println("another change");
         return "foo";
     }
 }

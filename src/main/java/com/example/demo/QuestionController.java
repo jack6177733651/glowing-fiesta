@@ -10,4 +10,9 @@ public class QuestionController {
     public String getQuestion() {
         return "question from jack";
     }
+
+    @GetMapping
+    public String getQuestionByID(int id) {
+        return "question based on id";
+    }
 }

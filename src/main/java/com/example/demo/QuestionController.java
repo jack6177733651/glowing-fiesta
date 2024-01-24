@@ -13,6 +13,6 @@ public class QuestionController {
 
     @GetMapping
     public String getQuestionByID(int id) {
-        return "question based on id";
+        return "factored question based on id";
     }
 }
